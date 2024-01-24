@@ -19,8 +19,8 @@ export class CurriculoTableComponent implements OnInit {
   };
 
   readonly fields: Array<PoPageDynamicTableField> = [
-    { property: "id", label: "Id", visible: false},
-    { property: "idCurriculo", label: "Código", key: true },
+    { property: "id", label: "Id", key: true, visible: false},
+    { property: "idCurriculo", label: "Código" },
     { property: "idCandidato", label: "Candidato" },
     { property: "curriculoDocumento", label: "Documento Currículo" }
   ];

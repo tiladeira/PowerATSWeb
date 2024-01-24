@@ -20,7 +20,7 @@ export class CurriculoEditComponent implements OnInit {
 
   readonly fields: Array<PoPageDynamicEditField> = [
     { property: "idCurriculo", label: "idCurriculo", key: true, visible: false },
-    { property: "idCandidato", label: "idCandidato",  visible: false },
+    { property: "idCandidato", label: "Candidato" },
     { property: "curriculoDocumento", label: "Documento", required: true },
   ];
 

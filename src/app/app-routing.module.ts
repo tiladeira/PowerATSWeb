@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'listagemCurriculos', component: CurriculoTableComponent },
 
   { path: 'novoCandidatoVaga', component: CandidatoVagaEditComponent },
-  { path: 'editarCandidatoVaga/:id', component: CandidatoEditComponent },
+  { path: 'editarCandidatoVaga/:id', component: CandidatoVagaEditComponent },
   { path: 'listagemCandidatosVagas', component: CandidatoVagaTableComponent },
 ];
 
