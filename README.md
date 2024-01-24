@@ -1,27 +1,20 @@
-# PowerATSWeb
+# Power ATS Web
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
+Projeto web para gerenciamento das funvionalidades:
 
-## Development server
+* Gestão de Vagas;
+* Gestão de Candidatos;
+* Gestão de Currículos;
+* Gestão de Candidatos Vagas;
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://github.com/tiladeira/PowerATSWeb/assets/6598511/899b6867-7f1c-4f2c-992b-5b7391ba3b7b)
 
-## Code scaffolding
+# Instalação
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1) Faça o clone deste repositório a partir da branch master em seu dispositivo local.
 
-## Build
+2) Com o clone feito, vá até a pasta salva e abra o projeto no seu visual studio code.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3) Projeto aberto no visual studio code, exebute o comando npm i para instalar os pacotes do projeto.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4) Depois de finalizada a instalação, execute o comando ng s --o para abrir o projeto em seu browser.
