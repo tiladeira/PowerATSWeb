@@ -1,5 +1,11 @@
 # Power ATS Web
 
+Projeto desenvolvido com as seguintes tecnologias e metodologias:
+
+* Angular 16;
+* PO-UI;
+* TypeScript;
+
 Projeto web para gerenciamento das funvionalidades:
 
 * Gestão de Vagas;
