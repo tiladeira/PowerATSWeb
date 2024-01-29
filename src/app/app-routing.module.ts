@@ -8,9 +8,10 @@ import { CandidatoVagaEditComponent } from './candidato-vaga-edit/candidato-vaga
 import { CandidatoVagaTableComponent } from './candidato-vaga-table/candidato-vaga-table.component';
 import { CurriculoEditComponent } from './curriculo-edit/curriculo-edit.component';
 import { CurriculoTableComponent } from './curriculo-table/curriculo-table.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'dashboard' },
+  { path: 'dashboard', component: DashboardComponent },
 
   { path: 'novaVaga', component: VagaEditComponent },
   { path: 'editarVaga/:id', component: VagaEditComponent },
